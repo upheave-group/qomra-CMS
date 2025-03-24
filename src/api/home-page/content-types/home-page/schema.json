@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "experience": {
+      "displayName": "experience",
+      "type": "component",
+      "repeatable": false,
+      "component": "experience.experience"
+    },
+    "portfolio": {
+      "displayName": "portfolio",
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.portfolio"
+    },
+    "testemonial": {
+      "displayName": "testemoial",
+      "type": "component",
+      "repeatable": false,
+      "component": "testemoial.testemoial"
+    },
+    "divider": {
+      "displayName": "devider",
+      "type": "component",
+      "repeatable": false,
+      "component": "devider.devider"
+    },
+    "contactUsSection": {
+      "displayName": "contactUsSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us-section.contact-us-section"
+    }
+  }
+}

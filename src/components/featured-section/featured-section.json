@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_featured_section_featured_sections",
+  "info": {
+    "displayName": "featuredSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "percentage": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "list": {
+      "type": "enumeration",
+      "enum": [
+        "morining ",
+        "noon",
+        "nught"
+      ]
+    }
+  }
+}

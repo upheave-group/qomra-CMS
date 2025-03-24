@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_devider_deviders",
+  "info": {
+    "displayName": "devider",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

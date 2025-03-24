@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_testemoial_testemoials",
+  "info": {
+    "displayName": "testemoial",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": true,
+      "component": "review.review"
+    }
+  }
+}
