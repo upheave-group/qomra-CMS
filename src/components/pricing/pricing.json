@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "prices": {
+      "displayName": "prices",
+      "type": "component",
+      "repeatable": true,
+      "component": "prices.prices"
+    }
+  }
+}

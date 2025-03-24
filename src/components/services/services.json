@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "services",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "service": {
+      "displayName": "service",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service"
+    }
+  }
+}

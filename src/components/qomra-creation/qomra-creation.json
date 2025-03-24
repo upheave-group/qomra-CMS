@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_qomra_creation_qomra_creations",
+  "info": {
+    "displayName": "QomraCreation",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

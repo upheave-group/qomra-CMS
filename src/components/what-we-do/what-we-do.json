@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_what_we_do_what_we_dos",
+  "info": {
+    "displayName": "what we do",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
