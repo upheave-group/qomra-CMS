@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "newpages",
+  "info": {
+    "singularName": "newpage",
+    "pluralName": "newpages",
+    "displayName": "newpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

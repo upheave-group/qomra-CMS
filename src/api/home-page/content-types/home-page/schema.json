@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "home-page"
+    "displayName": "home-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,12 +23,12 @@
       "type": "text"
     },
     "coverImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "experience": {
       "displayName": "experience",

@@ -550,6 +550,7 @@ export interface ApiEventsAndWorkshopEventsAndWorkshop
 export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
   collectionName: 'home_pages';
   info: {
+    description: '';
     displayName: 'home-page';
     pluralName: 'home-pages';
     singularName: 'home-page';
@@ -582,6 +583,38 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     portfolio: Schema.Attribute.Component<'portfolio.portfolio', false>;
     publishedAt: Schema.Attribute.DateTime;
     testemonial: Schema.Attribute.Component<'testemoial.testemoial', false>;
+    title: Schema.Attribute.Text;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiNewpageNewpage extends Struct.SingleTypeSchema {
+  collectionName: 'newpages';
+  info: {
+    displayName: 'newpage';
+    pluralName: 'newpages';
+    singularName: 'newpage';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::newpage.newpage'
+    >;
+    publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1218,6 +1251,7 @@ declare module '@strapi/strapi' {
       'api::contact-us.contact-us': ApiContactUsContactUs;
       'api::events-and-workshop.events-and-workshop': ApiEventsAndWorkshopEventsAndWorkshop;
       'api::home-page.home-page': ApiHomePageHomePage;
+      'api::newpage.newpage': ApiNewpageNewpage;
       'api::pricing.pricing': ApiPricingPricing;
       'api::services-page.services-page': ApiServicesPageServicesPage;
       'api::studio-gallery.studio-gallery': ApiStudioGalleryStudioGallery;
