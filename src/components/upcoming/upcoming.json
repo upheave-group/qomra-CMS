@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_upcoming_upcomings",
+  "info": {
+    "displayName": "upcoming",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_prices_prices",
+  "info": {
+    "displayName": "prices",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "price": {
+      "type": "text"
+    },
+    "ServicesProvided": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "studio_galleries",
+  "info": {
+    "singularName": "studio-gallery",
+    "pluralName": "studio-galleries",
+    "displayName": "studio-gallery "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headline": {
+      "type": "text"
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    }
+  }
+}

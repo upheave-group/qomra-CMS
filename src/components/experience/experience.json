@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "displayName": "experience",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "years": {
+      "type": "text"
+    },
+    "yearsOfExpereince": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featuredSection": {
+      "displayName": "featuredSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-section.featured-section"
+    }
+  }
+}

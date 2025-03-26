@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "servicesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "servicesHeaderSection": {
+      "displayName": "servicesHeaderSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "services-header-section.services-header-section"
+    },
+    "QomraCreation": {
+      "displayName": "QomraCreation",
+      "type": "component",
+      "repeatable": false,
+      "component": "qomra-creation.qomra-creation"
+    },
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.services"
+    },
+    "Equipment": {
+      "displayName": "Equipment",
+      "type": "component",
+      "repeatable": false,
+      "component": "equipment.equipment"
+    }
+  }
+}

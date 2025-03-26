@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_category_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

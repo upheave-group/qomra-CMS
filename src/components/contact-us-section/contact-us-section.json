@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_section_contact_us_sections",
+  "info": {
+    "displayName": "contactUsSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "differentColorWord": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
